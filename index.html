@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <link href="/LoginPage/vite.svg" rel="icon" type="image/svg+xml"/>
+    <link href="/vite.svg" rel="icon" type="image/svg+xml"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Vite App</title>
-  <script type="module" crossorigin src="/LoginPage/assets/index.9dcf1435.js"></script>
-  <link rel="stylesheet" href="/LoginPage/assets/index.bcda7ca0.css">
+  <script type="module" crossorigin src="/assets/index.0abca5e8.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill.c7c6310f.js">
+  <link rel="stylesheet" href="/assets/index.e582e526.css">
 </head>
 <body>
 <div id="Container">
@@ -16,7 +17,7 @@
     <div id="title">登录</div>
     <div id="instruction">使用您的 <span id="logoT">Julab</span> 账号</div>
     <div id="nameBox">
-        <input id="username" type="text" placeholder="请输入用户名">
+        <input id="username" type="text" :style="{border: Border}" placeholder="请输入用户名">
     </div>
     <div id="tips" class="alert">忘记了用户名？</div>
 
